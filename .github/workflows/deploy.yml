@@ -16,4 +16,4 @@ jobs:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-domain: 'theimmortalsheep.nekoweb.org'
           nekoweb-username: 'theimmortalsheep'
-          directory: 'public'
+          directory: './'
