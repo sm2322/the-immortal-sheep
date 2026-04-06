@@ -1,0 +1,21 @@
+name: Deploy to Nekoweb
+on:
+  push:
+    branches:
+      - main  # Triggers whenever you push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to Nekoweb
+        uses: indiefellas/deploy2nekoweb@v1
+        with:
+          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
+          # The directory in your repo to upload (use './' for root)
+          BUILD_DIR: './'
+          # The directory on Nekoweb to deploy to (use '/' for root)
+          DEPLOY_DIR: '/'
