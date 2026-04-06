@@ -14,6 +14,6 @@ jobs:
         uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
-          nekoweb-domain: 'theimmortalsheep.nekoweb.org'
-          nekoweb-username: 'theimmortalsheep'
+          #nekoweb-domain: 'theimmortalsheep.nekoweb.org'
+          #nekoweb-username: 'theimmortalsheep'
           directory: '.'
