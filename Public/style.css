@@ -27,6 +27,7 @@ h2 {
 }
 .flexy {
     display: flex;
+    flex-direction: row;
 
 }
 p {text-align: center;}
