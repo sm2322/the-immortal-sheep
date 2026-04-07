@@ -17,4 +17,3 @@ jobs:
           nekoweb-domain: 'theimmortalsheep.nekoweb.org'
           nekoweb-username: 'theimmortalsheep'
           directory: 'Public'
-          cleanup: 'true'
