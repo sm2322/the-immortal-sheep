@@ -20,3 +20,13 @@ body {
   max-width: 600px;
   margin: 50px auto;
 }
+h2 {
+    color: darkblue;
+    text-align: center;
+
+}
+.flexy {
+    display: flex;
+
+}
+p {text-align: center;}
