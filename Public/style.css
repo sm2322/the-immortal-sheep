@@ -1,12 +1,13 @@
 h1 {
-  color: blue;
+  color: darkslategray;
   text-align: center;
+  font-family: "Saira Stencil", sans-serif;
 }
 
 .welcome {
-  color: red;
+  color: darkblue;
   text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: sans-serif;
 }
 body {
   background-image: url(background.jpeg);
@@ -14,21 +15,32 @@ body {
   background-position: center;
 }
 .box {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   padding: 20px;
   border-radius: 10px;
-  max-width: 600px;
-  margin: 50px auto;
+  max-width: 900px;
+  margin: 50px 50px;
+}
+.bigbox {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0px;
+  border-radius: 10px;
+  margin: 50px 50px;
+  min-width: 800px;
 }
 h2 {
-    color: darkblue;
-    text-align: center;
-
+  color: darkslategray;
+  text-align: center;
+  font-family: "Saira Stencil", sans-serif;
 }
 .flexy {
-    display: inline-flex;
-    flex-direction: row;
-    width: 100%;
-
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
 }
-p {text-align: center;}
+p {
+  text-align: center;
+}
+ul li {
+  margin-bottom: 15px;
+}
