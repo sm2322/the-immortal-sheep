@@ -1,46 +1,4 @@
-h1 {
-  color: darkslategray;
-  text-align: center;
-  font-family: "Saira Stencil", sans-serif;
-}
-
-.welcome {
-  color: darkblue;
-  text-align: center;
-  font-family: sans-serif;
-}
 body {
-  background-image: url(background.jpeg);
-  background-size: cover;
-  background-position: center;
-}
-.box {
-  background-color: rgba(255, 255, 255, 1);
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 900px;
-  margin: 50px 50px;
-}
-.bigbox {
-  background-color: rgba(255, 255, 255, 1);
-  padding: 0px;
-  border-radius: 10px;
-  margin: 50px 50px;
-  min-width: 800px;
-}
-h2 {
-  color: darkslategray;
-  text-align: center;
-  font-family: "Saira Stencil", sans-serif;
-}
-.flexy {
-  display: inline-flex;
-  flex-direction: row;
-  width: 100%;
-}
-p {
-  text-align: center;
-}
-ul li {
-  margin-bottom: 15px;
+  background-color: darkslategrey;
+
 }
